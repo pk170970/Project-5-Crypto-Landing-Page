@@ -1,0 +1,113 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins';
+}
+
+section:first-child::after{
+    content: "";
+    width: 100%;
+    height: 85%;
+    background: url("./assets/bg.png") no-repeat;
+    background-size: 100% 100%;
+    background-position: center;
+    position: absolute;
+    margin-top: 0;
+
+}
+.navbar{
+    width: 100vw;
+    height: 12vh;
+    background-color: black;
+    position: relative;
+}
+
+.navbar img{
+    width: 81px;
+    height: 30px;
+    position: absolute;
+    top: 25px;
+    left: 110px;
+    cursor: pointer;
+}
+.line{
+    height: 1.5px;
+    background-color: #ffff;
+    position: absolute;
+    top: 41px;
+    left: 264px;
+    display: block;
+    width: 54px;
+    transform: rotate(90deg);
+}
+
+.list{
+    position: absolute;
+    width: 980px;
+    height: 30px;
+    left: 345px;
+    top: 30px;
+    color: white;
+    text-align: center;
+}
+.list li{
+    list-style: none;
+    float: left;
+    margin: 0px 30px;
+    cursor: pointer;
+    width: 49px;
+    height: 23px;
+}
+.list li:nth-child(4){
+    margin-left: 65px;
+}
+.button-small{
+    width: 133px;
+    height: 40px;
+    background-color: #ba0cc5;
+    text-align: center;
+    border-radius: 9px;
+    color: white;
+    position: absolute;
+    right: 83px;
+    top: 21px;
+    cursor: pointer;
+}
+
+.hero{
+    position: relative;
+    width: 100vw;
+    height: 88vh;
+    text-align: center;
+}
+.hero h1{
+    font-size: 57px;
+    width: 606px;
+    font-weight: bold;
+    color: #ffff;
+    position: absolute;
+    left: 500px;
+    top: 108px;
+}
+.hero p{
+    font-size: 21px;
+    width: 606px;
+    color: #ffff;
+    position: absolute;
+    left: 500px;
+    top: 285px;
+}
+.button-large{
+    font-size: 21px;
+    color: #ffff;
+    position: absolute;
+    left: 685px;
+    top: 370px;
+    background-color: #ba0cc5;
+    border: none;
+    width: 260px;
+    height: 40px;
+    text-align: center;
+    border-radius: 10px;
+    cursor: pointer;
+}
