@@ -61,17 +61,27 @@ section:first-child::after{
 .list li:nth-child(4){
     margin-left: 65px;
 }
+
+.list li:hover{
+    color: #ba0cc5;
+}
+
 .button-small{
     width: 133px;
     height: 40px;
     background-color: #ba0cc5;
     text-align: center;
     border-radius: 9px;
-    color: white;
+    color: #fff;
     position: absolute;
     right: 83px;
     top: 21px;
     cursor: pointer;
+}
+.button-small:hover{
+    color: #000;
+    background-color: #fff;
+    border: 2px solid #000;
 }
 
 .hero{
@@ -110,4 +120,9 @@ section:first-child::after{
     text-align: center;
     border-radius: 10px;
     cursor: pointer;
+}
+
+.button-large:hover{
+    color: #ba0cc5;
+    background-color: white;
 }
