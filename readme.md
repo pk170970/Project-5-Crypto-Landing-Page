@@ -27,10 +27,10 @@ This is a assignment given in **"JavaScript Full Stack Web Developer Bootcamp"**
 
 ## 📌 What I Learn
 
-👉 Less HTML and CSS with beautiful UI Template
-👉 **CSS Selectors**
-👉 Position in CSS
-👉 Adjust background with naviagation bar and screen viewport size
+👉 Less HTML and CSS with beautiful UI Template  <br>
+👉 **CSS Selectors** <br>
+👉 Position in CSS <br> 
+👉 Adjust background with naviagation bar and screen viewport size 
 
 
 ## Time taken to complete this project was **1.5 hr**.
